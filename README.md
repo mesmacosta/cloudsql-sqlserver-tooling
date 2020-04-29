@@ -3,13 +3,11 @@
 Scripts with the goal to enable easy usage of some SQLServer operations.
 
 ## INIT database
-Execute
 ```bash
 ./init-db.sh
 ```
 
 ## Creating Schemas and Tables in SQLServer
-Execute
 ```bash
 ./connect-db.sh
 ```
