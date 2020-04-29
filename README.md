@@ -2,14 +2,13 @@
 
 Scripts with the goal to enable easy usage of some SQLServer operations.
 
-## INIT DATABASE
+## INIT database
 Execute
 ```bash
 ./init-db.sh
 ```
 
-## CREATE METADATA
-### Creating Schemas and Tables in SQLServer
+## Creating Schemas and Tables in SQLServer
 Execute
 ```bash
 ./connect-db.sh
@@ -27,14 +26,12 @@ sudo pip install mssql-cli --ignore-installed six
 ```
 To update the sql server driver used by gcloud.
 
-## CLEAN UP DB
-### Clean up SQLServer Schemas and Tables
+## Clean up SQLServer Schemas and Tables
 ```bash
 ./cleanup-db.sh
 ```
 
-## DELETE DB
-### Delete the SQLServer database
+## Delete the SQLServer database
 ```bash
 ./delete-db.sh
 ```
