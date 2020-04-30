@@ -1,4 +1,4 @@
-# docker build -t sqlserver2-metadata-generator .
+# docker build -t sqlserver-metadata-generator .
 FROM python:3.7
 
 # install FreeTDS and dependencies
