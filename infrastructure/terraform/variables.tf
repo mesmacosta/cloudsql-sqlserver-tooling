@@ -9,7 +9,7 @@ variable "test_machine_ip" {
 }
 
 variable "tier" { default = "db-custom-2-13312" }
-variable "db_name" { default = "test_db" }
+variable "db_name" { default = "test-db" }
 variable "db_region" { default = "us-central1" }
 variable "project_region" { default = "us-central1" }
 variable "disk_size" { default = "20" }

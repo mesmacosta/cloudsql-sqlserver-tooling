@@ -14,7 +14,7 @@ password=${password//\"/}
 database=${database//\"/}
 
 docker run --rm --tty -v \
-"$PWD":/data #ADD DOCKER IMAGE:stable \
+"$PWD":/data mesmacosta/sqlserver-db-cleaner:stable \
 --sqlserver-host $public_ip_address \
 --sqlserver-user $username \
 --sqlserver-pass $password \
