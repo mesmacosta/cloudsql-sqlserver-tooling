@@ -45,6 +45,11 @@ username=${username//\"/}
 password=${password//\"/}
 database=${database//\"/}
 
+export public_ip_address=$public_ip_address
+export username=$username
+export password=$password
+export database=$database
+
 if [ -z "$public_ip_address" ]; then
     echo "Cloud SQL instance creation failed"
     exit 3
